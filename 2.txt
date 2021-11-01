@@ -1,0 +1,37 @@
+Def killing robot():
+	Operation = PriorityQ()
+	For every 5 seconds:
+		Enqueue(6,scan)
+	While operation.peek().priority != 0:
+		Perform(operation.dequeue().item)
+    Perform(operation.dequeue().item)			
+		
+Def scan():
+	Num = min (number of items detected, maximum object able to handle
+		For I in range(Num):
+			Enqueue(1,check_identity())
+	
+Def check_identity():
+If identity = friend
+	  Pass
+	Else:
+		Enqueue(3,warning())
+
+Def warning():
+	Alarm
+	Enqueue(4, check_surrender())
+
+Def check_surrender():
+	If surrender:
+		pass
+	Else:
+		Enqueue(5,kill())
+
+Def human_shutdown():
+	Enqueue(0, shutdown())
+
+Def shutdown:
+	Shutdown
+
+Def kill:
+	kill
